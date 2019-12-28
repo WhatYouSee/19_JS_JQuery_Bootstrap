@@ -1,0 +1,211 @@
+/* structure CSS */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding-bottom: 50px !important;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.link {
+    font-style: italic;
+    color: #000000 !important;
+    font-size: 18px;
+    margin-top: 15px;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    text-shadow: 0.15rem 0.15rem rgba(0, 0, 0, 0.25);
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.button-shadow {
+    background-color: #333333;
+    border: #333333;
+    box-shadow: 0.25rem 0.25rem #cccccc;
+}
+.button-shadow:hover {
+    color: #333333;
+    background-color: #dddddd;
+    border-color: #333333;
+}
+.linkStyle {
+    font-weight: bold;
+    text-shadow: 0.15rem 0.15rem rgba(255, 255, 255, 0.25);
+    color: black;
+}
+
+/* Navbar CSS */
+
+.navbar-nav {
+    margin-right: unset !important;
+    margin-left: auto;
+}
+
+nav {
+    background: #777777;
+}
+
+nav a {
+    color: white !important;
+}
+
+
+/* Jumbotron CSS */
+
+.jumbotron {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/cgjumbotron.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+/* Work Section */
+
+.cardPadding {
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 0.25rem;
+    box-shadow: 0.5rem 0.5rem #cccccc;
+
+}
+
+.flexRow {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: unset !important;
+}
+.skillstuff {
+    background-color: #cccccc;
+}
+
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 10 1rem;
+}
+
+.skillContainer p {
+    margin-top: 2rem;
+}
+
+.skillBar {
+    height: 350px;
+    width: 23px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #ECEEEF;
+}
+
+.skillPurple {
+    height: 300px;
+    background-color: green;
+    width: 35px;
+    background: url(../images/purpleBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -6px;
+}
+
+.skillGreen {
+    height: 300px;
+    background-color: green;
+    width: 35px;
+    background: url(../images/greenBar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -6px;
+}
+
+.textCenter {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* Contact CSS */
+
+.contactMe {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/cgcontactbg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.contactMe img {
+    max-width: 250px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    max-width: 35rem;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #373A3C;
+    padding: 15px;
+}
+
+.blockquote {
+    border-left: 2px solid white;
+    max-width: 580px;
+    margin: 1rem auto;
+}
+
+blockquote p {
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: white;
+}
+
+.quotePerson {
+    font-weight: bold;
+    text-shadow: 0.15rem 0.15rem rgba(255, 255, 255, 0.25);
+}
+
+/* grid container */
+
+.container {
+    padding: 5rem;
+}
+.card-pad {
+    padding-left:2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}

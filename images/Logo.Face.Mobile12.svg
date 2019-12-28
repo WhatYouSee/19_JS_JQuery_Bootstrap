@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#000000;}
+	.st3{fill:none;stroke:#000000;stroke-linecap:round;}
+	.st4{fill:#F5F5F5;}
+	.st5{fill:#F5F5F5;stroke:#000000;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;}
+	.st7{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;}
+</style>
+<g id="Mobile" transform="translate(3.5 -250.505)">
+	<g id="Hair_Back" transform="translate(-3.5 250.505)">
+		<circle cx="64" cy="64" r="64"/>
+		<circle class="st0" cx="64" cy="64" r="63"/>
+	</g>
+	<g id="Right_Ear" transform="translate(-3.015 294.141)">
+		<g id="Ellipse_43" transform="translate(-0.485 0.364)">
+			<ellipse class="st1" cx="9" cy="30" rx="9" ry="30"/>
+			<ellipse class="st2" cx="9" cy="30" rx="8.5" ry="29.5"/>
+		</g>
+	</g>
+	<g id="Left_Ear" transform="translate(106.729 293.972)">
+		<g id="Ellipse_44" transform="translate(0 0)">
+			<ellipse class="st1" cx="8.9" cy="30.3" rx="8.9" ry="30.3"/>
+			<ellipse class="st2" cx="8.9" cy="30.3" rx="8.4" ry="29.8"/>
+		</g>
+	</g>
+	<g id="Hair" transform="translate(0.5 258.505)">
+		<circle cx="60" cy="60" r="60"/>
+		<circle class="st0" cx="60" cy="60" r="59"/>
+	</g>
+	<g id="Face" transform="translate(2.984 262.272)">
+		<circle class="st1" cx="57.6" cy="57.6" r="57.6"/>
+		<circle class="st3" cx="57.6" cy="57.6" r="57.1"/>
+	</g>
+	<g id="Left_Eye" transform="translate(76.015 304.808)">
+		<g id="Ellipse_17" transform="translate(0.485 -0.303)">
+			<ellipse cx="3.5" cy="4" rx="3.5" ry="4"/>
+			<ellipse class="st0" cx="3.5" cy="4" rx="2.5" ry="3"/>
+		</g>
+		<g id="Ellipse_47" transform="translate(1.485 0.697)">
+			<circle class="st1" cx="2" cy="2" r="2"/>
+			<circle class="st2" cx="2" cy="2" r="1.5"/>
+		</g>
+	</g>
+	<g id="Right_Eye" transform="translate(37.712 304.808)">
+		<g id="Ellipse_16" transform="translate(-0.212 -0.303)">
+			<ellipse cx="3.5" cy="4" rx="3.5" ry="4"/>
+			<ellipse class="st0" cx="3.5" cy="4" rx="2.5" ry="3"/>
+		</g>
+		<g id="Ellipse_46" transform="translate(0.788 0.697)">
+			<circle class="st1" cx="2" cy="2" r="2"/>
+			<circle class="st2" cx="2" cy="2" r="1.5"/>
+		</g>
+	</g>
+	<g id="Cheek_Right" transform="translate(10.5 311.505)">
+		<circle class="st4" cx="20.7" cy="21" r="21"/>
+		<circle class="st3" cx="20.7" cy="21" r="20.5"/>
+	</g>
+	<g id="Cheek_Left" transform="translate(69.5 311.505)">
+		<circle class="st4" cx="20.7" cy="21" r="21"/>
+		<circle class="st3" cx="20.7" cy="21" r="20.5"/>
+	</g>
+	<g id="Nose" transform="translate(51.975 324.686)">
+		<g id="Nostrils_Outer" transform="translate(0 1.465)">
+			<path class="st5" d="M11.8,10.5c-1,0-2-0.3-2.8-0.9L8.6,9.5L8.4,9.7c-0.8,0.6-1.8,0.9-2.8,0.9c-2.8,0-5-2.3-5-5s2.3-5,5-5
+				c1,0,2,0.3,2.8,0.9l0.3,0.2l0.3-0.2c0.8-0.6,1.8-0.9,2.8-0.9c2.8,0,5,2.3,5,5S14.5,10.5,11.8,10.5z"/>
+		</g>
+		<g id="Nostrils" transform="translate(3.843 8.19)">
+			<g id="Ellipse_29">
+				<circle cx="1.7" cy="1.7" r="1.7"/>
+				<circle class="st2" cx="1.7" cy="1.7" r="1.2"/>
+			</g>
+			<g id="Ellipse_30" transform="translate(6.244)">
+				<circle cx="1.7" cy="1.7" r="1.7"/>
+				<circle class="st2" cx="1.7" cy="1.7" r="1.2"/>
+			</g>
+		</g>
+		<g id="Nose_Front" transform="translate(3.525 -0.182)">
+			<circle class="st1" cx="5.1" cy="5.5" r="5.5"/>
+			<circle class="st2" cx="5.1" cy="5.5" r="5"/>
+		</g>
+	</g>
+	<g id="Lips" transform="translate(40.447 354.566)">
+		<path id="Path_12" class="st6" d="M40.6,0C40.5,4.1,0,4.4,0,0"/>
+		<path id="Path_13" class="st3" d="M38.2,6.4c0,1.9-36,2-36,0"/>
+	</g>
+	<g id="Front_Hair" transform="translate(1.552 258.91)">
+		<g id="Top_Hair" transform="translate(32.566)">
+			<path d="M26.3,16.8c-4.9,0-9.7-1-14.2-3C8.2,12,4.7,9.5,1.7,6.5c3.6-1.7,7.4-3,11.2-3.9c4.4-1,9-1.6,13.6-1.6
+				c4.5,0,9,0.5,13.4,1.5c3.8,0.9,7.5,2.2,11.1,3.8c-3,3.1-6.5,5.6-10.5,7.4C36,15.7,31.2,16.8,26.3,16.8z"/>
+			<path d="M26.5,2c-4.5,0-9,0.5-13.4,1.6C9.8,4.3,6.6,5.4,3.4,6.8c2.7,2.5,5.7,4.5,9.1,6c4.3,2,9,2.9,13.8,2.9c4.8,0,9.5-1,13.9-3
+				c3.4-1.5,6.4-3.6,9.1-6.1c-3.1-1.3-6.3-2.4-9.6-3.1C35.4,2.5,31,2,26.5,2 M26.5,0c9.4,0,18.3,2.2,26.2,6
+				c-6.5,7.2-15.9,11.8-26.4,11.8C15.9,17.8,6.5,13.3,0,6.2C8,2.2,17,0,26.5,0z"/>
+		</g>
+		<g id="Right" transform="translate(0 15.401)">
+			<path d="M13.5,34H1.2c0.9-6.1,2.7-12,5.3-17.5C9,11.1,12.2,6.2,16,1.9c0.9,0.8,1.4,1.9,1.4,3.1V30C17.5,32.2,15.7,34,13.5,34z"/>
+			<path d="M13.5,33c1.7,0,3-1.3,3-3V5c0-0.6-0.2-1.1-0.4-1.6c-3.4,4-6.4,8.5-8.7,13.5C5,22,3.3,27.4,2.3,33H13.5 M13.5,35H0.6
+				c-0.2,0-0.4,0-0.6,0C1.8,21.5,7.6,9.5,15.9,0.6c1.5,0.9,2.6,2.5,2.6,4.4V30C18.5,32.8,16.2,35,13.5,35z"/>
+		</g>
+		<g id="Left" transform="translate(99.681 15.401)">
+			<path d="M17.3,34H5c-2.2,0-4-1.8-4-4V5c0-1.2,0.5-2.3,1.4-3.1c3.8,4.3,7.1,9.2,9.6,14.6C14.6,22,16.4,27.9,17.3,34z"/>
+			<path d="M16.1,33c-1-5.6-2.6-11.1-5-16.1c-2.3-5-5.2-9.5-8.7-13.5C2.2,3.9,2,4.4,2,5V30c0,1.7,1.3,3,3,3H16.1 M17.8,35H5
+				c-2.8,0-5-2.2-5-5V5c0-1.9,1-3.5,2.6-4.4c8.3,8.9,14,20.9,15.9,34.4C18.2,35,18,35,17.8,35z"/>
+		</g>
+	</g>
+	<path id="Path_14" class="st7" d="M51.5,308.3c0-19.3-26.4-18.9-26.4,0"/>
+	<path id="Path_16" class="st7" d="M69.7,308.3c0-19.3,26.4-18.9,26.4,0"/>
+</g>
+</svg>
