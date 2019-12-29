@@ -30,6 +30,13 @@ h1 {
     font-weight: 700;
     line-height: 1.2;
 }
+
+/* buttons */
+
+.btn {
+    border: 1rem solid black;
+}
+
 .button-shadow {
     background-color: #333333;
     border: #333333;
@@ -37,8 +44,8 @@ h1 {
 }
 .button-shadow:hover {
     color: #333333;
-    background-color: #dddddd;
-    border-color: #333333;
+    background-color: #cccccc;
+    box-shadow: 0.25rem 0.25rem #333333;
 }
 .linkStyle {
     font-weight: bold;
@@ -53,34 +60,20 @@ h1 {
     margin-left: auto;
 }
 
-nav {
-    background: #777777;
-}
-
 nav a {
-    color: white !important;
+    color: whitesmoke !important;
 }
 
-/* Style the links inside the navigation bar */
-.navbar-nav a {
-    display: block;
-    color: transparent;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .navbar-nav a:hover {
-    border-top: 2px solid #333333;
-    border-bottom: 2px solid #333333;
+nav a:hover {
+    color: white !important;
+    text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 0.5); 
+}
 
-  }
-  
-  .navbar-nav a.active {
-    border-top: 2px solid #cccccc;
-    border-bottom: 2px solid #cccccc;
-  }
+nav a:active {
+    color: whitesmoke !important;
+    text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 0.75); 
+}
+
 
 /* Jumbotron CSS */
 
@@ -197,7 +190,6 @@ nav a {
 /* Footer Styles */
 
 footer {
-    background-color: #373A3C;
     padding: 15px;
 }
 
