@@ -12,7 +12,10 @@
 <body>
     <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand active" href="index.html"><img src="./images/CG_LogoWeb12.svg" width="80rem" height="40rem" alt="logo"><span class="sr-only">(current)</span></a>
+  <a class="navbar-brand active" href="index.html">
+    <img src="./images/CG_LogoWeb12.svg" width="80rem" height="40rem" alt="logo">
+    <span class="sr-only">(current)</span>
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -146,14 +149,30 @@
     </div>
   </section>
 <!-- contact jumbotron html -->
-  <div class="contactMe">
-    <h1 class="display-4">Let's Chat!</h1>
-    <p class="lead">Add me on Social Media, Let’s talk about how I can help you.</p>
-    <a class="navbar-brand" href="https://github.com/WhatYouSee" target="_blank"><img src="./images/Github.Logo.web.svg" width="80rem" height="80rem" alt="Github logo"></a>
-    <a class="navbar-brand" href="https://www.linkedin.com/in/chris-gray-profile" target="_blank"><img src="./images/LinkedIn_Logo.web.svg" width="80rem" height="80rem" alt="LinkedIn logo"></a>
-    <a class="navbar-brand" href="https://www.behance.net/chris_gray" target="_blank"><img src="./images/Behance_Logo.web.svg" width="80rem" height="80rem" alt="LinkedIn logo"></a>
-    <a class="btn btn-primary btn-lg button-shadow" href="contact.html" role="button">Connect</a>
-  </div>
+  <section>
+    <div class="contactMe">
+      <h1 class="display-4">Let's Chat!</h1>
+      <div class="btn-group container-grid" role="group" aria-label="Social Media menu">
+        <button type="button" class="btn">
+          <a class="navbar-brand" href="https://www.behance.net/chris_gray" target="_blank">
+          <img src="./images/Behance_Logo.web.svg" width="40rem" height="40rem" alt="Behance logo">
+        </button>  
+          </a>
+        <button type="button" class="btn">
+          <a class="button" href="https://github.com/WhatYouSee" target="_blank">
+            <img src="./images/Github.Logo.web.svg" width="40rem" height="40rem" alt="Github logo">
+        </button>
+          </a>
+        <button type="button" class="btn">
+          <a class="button" href="https://www.linkedin.com/in/chris-gray-profile" target="_blank">
+          <img src="./images/LinkedIn_Logo.web.svg" width="40rem" height="40rem" alt="LinkedIn logo">
+        </button>
+          </a>
+      </div>  
+      <p class="lead">Add me on Social Media, Let’s talk about how I can help you.</p>
+      <a class="btn btn-primary btn-lg button-shadow" href="contact.html" role="button">Connect</a>
+    </div>
+  </section>
 <!-- footer html -->
 <footer class="bg-dark">
   <blockquote class="blockquote">
