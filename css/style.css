@@ -16,6 +16,15 @@ h1 {
 }
 
 .link {
+    font-style: normal;
+    color: #000000 !important;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    text-shadow: 0.15rem 0.15rem rgba(0, 0, 0, 0.25);
+}
+
+.link-below {
     font-style: italic;
     color: #000000 !important;
     font-size: 18px;
@@ -206,7 +215,12 @@ img:hover {
 }
 
 .btn-group {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Social */
