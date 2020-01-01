@@ -21,7 +21,16 @@ h1 {
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.15rem 0.15rem rgba(0, 0, 0, 0.25);
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.link:hover {
+    font-style: normal;
+    color: #28a745 !important;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
 .link-below {
@@ -32,7 +41,18 @@ h1 {
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.15rem 0.15rem rgba(0, 0, 0, 0.25);
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.link-below:hover {
+    font-style: italic;
+    color: #28a745 !important;
+    font-size: 18px;
+    margin-top: 15px;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
 .display-4 {
@@ -50,14 +70,10 @@ h1 {
 }
 .button-shadow:hover {
     color: #333333;
-    background-color: #cccccc;
+    background-color: #fffdd2;
     box-shadow: 0.25rem 0.25rem #333333;
 }
-.linkStyle {
-    font-weight: bold;
-    text-shadow: 0.15rem 0.15rem rgba(255, 255, 255, 0.25);
-    color: black;
-}
+
 
 /* Navbar CSS */
 
@@ -71,7 +87,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white !important;
+    color: #fffdd2 !important;
     text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 0.5); 
 }
 
@@ -80,6 +96,9 @@ nav a:active {
     text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 0.75); 
 }
 
+.cglogo img:hover {
+    -webkit-filter: invert(100%);
+}
 
 /* Jumbotron CSS */
 
@@ -225,34 +244,17 @@ img:hover {
 
 /* Social */
 
-.button-github {
-    width: 130px;
-    height: 195px;
-    background: url("../images/Github.Logo.web.svg") no-repeat;
-    display: inline-block;
-}
+
 .button-github:hover {
-    background: url("../images/Github_Logo.web.svg") no-repeat;
+    -webkit-filter: invert(100%);
 }
 
-.button-linkedin {
-    width: 130px;
-    height: 195px;
-    background: url("../images/LinkedIn_Logo.web.svg") no-repeat;
-    display: inline-block;
-}
 .button-linkedin:hover {
-    background: url("../images/LinkedIn.Logo.web.svg") no-repeat;
+    -webkit-filter: invert(100%);
 }
 
-.button-behance {
-    width: 130px;
-    height: 195px;
-    background: url("../images/Behance_Logo.web.svg") no-repeat;
-    display: inline-block;
-}
 .button-behance:hover {
-    background: url("../images/Behance.Logo.web.svg") no-repeat;
+    -webkit-filter: invert(100%);
 }
 
 /* Footer Styles */
