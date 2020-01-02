@@ -17,7 +17,7 @@ h1 {
 
 .link {
     font-style: normal;
-    color: #000000 !important;
+    color: #280025 !important;
     display: block;
     cursor: pointer;
     width: 200px;
@@ -26,16 +26,17 @@ h1 {
 
 .link:hover {
     font-style: normal;
+    font-weight: bolder;
     color: #28a745 !important;
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+    text-shadow: 0.1rem 0.1rem #d7ffda;
 }
 
 .link-below {
     font-style: italic;
-    color: #000000 !important;
+    color: #280025 !important;
     font-size: 18px;
     margin-top: 15px;
     display: block;
@@ -52,7 +53,7 @@ h1 {
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+    text-shadow: 0.1rem 0.1rem #d7ffda;
 }
 
 .display-4 {
@@ -64,13 +65,13 @@ h1 {
 /* buttons */
 
 .button-shadow {
-    background-color: #333333;
+    background-color: #280025;
     border: #333333;
     box-shadow: 0.25rem 0.25rem #cccccc;
 }
 .button-shadow:hover {
-    color: #333333;
-    background-color: #fffdd2;
+    color: #280025;
+    background-color: #d7ffda;
     box-shadow: 0.25rem 0.25rem #333333;
 }
 
@@ -87,8 +88,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #fffdd2 !important;
-    text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 0.5); 
+    color: #d7ffda !important;
+    text-shadow: 0.1rem 0.1rem #28a745; 
 }
 
 nav a:active {
