@@ -13,3 +13,4 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
 
+ScrollReveal().reveal('.img-reveal');

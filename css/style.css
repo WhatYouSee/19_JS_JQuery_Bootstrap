@@ -21,6 +21,11 @@ h2 {
     padding: 0.25em;
     font-family: 'Roboto Slab', serif;
 }
+.title-align-left {
+    text-align: left;
+
+
+}
 
 .link {
     font-style: normal;
@@ -162,12 +167,21 @@ img {
    filter: gray; /* IE 6-9 */
 }
 
+.img-reveal {
+    transition: background-color 2s;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
 img:hover {
     -webkit-filter: none;
     -moz-filter: none;
     -ms-filter: none;
     filter: none;
  }
+
 
 .skillstuff {
     background-color: #cccccc;
@@ -198,7 +212,6 @@ img:hover {
     grid-column: 4 / 6;
     grid-row: 3 / 4;
 }
-
 
 /* Contact CSS */
 
