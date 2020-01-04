@@ -15,6 +15,13 @@ h1 {
     font-family: 'Roboto Slab', serif;
 }
 
+h2 {
+    text-align: center;
+    margin: 0.25em 0;
+    padding: 0.25em;
+    font-family: 'Roboto Slab', serif;
+}
+
 .link {
     font-style: normal;
     color: #280025 !important;
@@ -164,6 +171,9 @@ img:hover {
 
 .skillstuff {
     background-color: #cccccc;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    grid-template-rows: 14.285714% 14.285714% 14.285714% 14.285714% 14.285714% 14.285714% 14.285714%; 
 }
 
 .skillContainer {
@@ -174,43 +184,19 @@ img:hover {
     margin: 10 1rem;
 }
 
-.skillContainer p {
-    margin-top: 3rem;
-}
-
-.skillBar {
-    height: 350px;
-    width: 23px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: #ECEEEF;
-}
-
-.skillPurple {
-    height: 300px;
-    background-color: green;
-    width: 35px;
-    background: url(../images/purpleBG.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: -6px;
-}
-
-.skillGreen {
-    height: 300px;
-    background-color: green;
-    width: 35px;
-    background: url(../images/greenBar.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: -6px;
-}
-
 .textCenter {
     text-align: center;
     margin-top: 15px;
+}
+
+.skillAbout {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+}
+
+.skillAbout {
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
 }
 
 
@@ -297,3 +283,39 @@ blockquote p {
     padding-right: 2rem;
     padding-top: 2rem;
 }
+
+/* Preloader*/
+/*
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.preloader img {
+    animation: spin 3s ease;
+    transition: all;
+    width: 150px;
+    margin: 0 auto;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+*/
