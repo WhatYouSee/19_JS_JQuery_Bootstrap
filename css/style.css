@@ -21,10 +21,9 @@ h2 {
     padding: 0.25em;
     font-family: 'Roboto Slab', serif;
 }
+
 .title-align-left {
     text-align: left;
-
-
 }
 
 .link {
@@ -76,12 +75,12 @@ h2 {
 
 /* buttons */
 
-.button-shadow {
+.buttonShadow {
     background-color: #280025;
     border: #333333;
     box-shadow: 0.125rem 0.125rem #cccccc;
 }
-.button-shadow:hover {
+.buttonShadow:hover {
     color: #280025;
     background-color: #d7ffda;
     box-shadow: 0.25rem 0.25rem #333333;
@@ -128,6 +127,57 @@ nav a:active {
     text-align: center;
 }
 
+.jumbotronhomear {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/HomeAR.Logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.jumbotrontlg {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/TLG.Logo.web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.jumbotrondoi {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/DOI.CaseStudy.web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.jumbotrondsf {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/DSF.CaseStudy.web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
 
 /* Work Section */
 
@@ -216,7 +266,7 @@ img:hover {
 /* Contact CSS */
 
 .contactMe {
-    height: 100vh;
+    height: 75vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -248,7 +298,6 @@ img:hover {
 }
 
 /* Social */
-
 
 .button-github:hover {
     -webkit-filter: invert(100%);
@@ -288,8 +337,28 @@ blockquote p {
 /* grid container */
 
 .container {
-    padding: 5rem;
+    padding: 25px;
+    border-radius: 25px;;
 }
+
+.container-shadow {
+    background-color: #cccccc;
+    border: #333333;
+    box-shadow: 0.25rem 0.25rem #cccccc;
+    border-radius: 25px;
+}
+.container-shadow:hover {
+    color: #280025;
+    background-color: #f5f5f5;
+    box-shadow: 0.5rem 0.5rem #333333;
+    border-radius: 25px;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+
 .card-pad {
     padding-left:2rem;
     padding-bottom: 2rem;
@@ -315,10 +384,6 @@ blockquote p {
     transition: all;
     width: 150px;
     margin: 0 auto;
-    -webkit-filter: none;
-    -moz-filter: none;
-    -ms-filter: none;
-    filter: none;
 }
 @keyframes spin {
     0% {
