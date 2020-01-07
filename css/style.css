@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #280025;
 }
 
 section {
@@ -32,7 +33,7 @@ h2 {
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+    text-shadow: 0.05rem 0.05rem rgba(0, 0, 0, 0.1);
 }
 
 .link:hover {
@@ -42,7 +43,7 @@ h2 {
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.1rem 0.1rem #d7ffda;
+    text-shadow: 0.05rem 0.05rem #d7ffda;
 }
 
 .link-below {
@@ -53,7 +54,7 @@ h2 {
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+    text-shadow: 0.05rem 0.05rem rgba(0, 0, 0, 0.1);
 }
 
 .link-below:hover {
@@ -64,7 +65,7 @@ h2 {
     display: block;
     cursor: pointer;
     width: 200px;
-    text-shadow: 0.1rem 0.1rem #d7ffda;
+    text-shadow: 0.05rem 0.05rem #d7ffda;
 }
 
 .display-4 {
@@ -83,7 +84,7 @@ h2 {
 .buttonShadow:hover {
     color: #280025;
     background-color: #d7ffda;
-    box-shadow: 0.25rem 0.25rem #333333;
+    box-shadow: 0.125rem 0.125rem #333333;
 }
 
 
@@ -100,12 +101,12 @@ nav a {
 
 nav a:hover {
     color: #d7ffda !important;
-    text-shadow: 0.1rem 0.1rem #28a745; 
+    text-shadow: 0.05rem 0.05rem #28a745; 
 }
 
 nav a:active {
     color: whitesmoke !important;
-    text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 0.75); 
+    text-shadow: 0.05rem 0.05rem rgba(255, 255, 255, 0.75); 
 }
 
 .cglogo img:hover {
@@ -190,7 +191,7 @@ nav a:active {
 .cardPadding:hover {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 0.25rem;
-    box-shadow: 0.5rem 0.5rem #333333cc;
+    box-shadow: 0.25rem 0.25rem #333333cc;
 }
 
 .flexRow {
@@ -331,26 +332,33 @@ blockquote p {
 
 .quotePerson {
     font-weight: bold;
-    text-shadow: 0.15rem 0.15rem rgba(255, 255, 255, 0.25);
+    text-shadow: 0.05rem 0.05rem rgba(255, 255, 255, 0.25);
 }
 
 /* grid container */
 
 .container {
     padding: 25px;
-    border-radius: 25px;;
+    border-radius: 25px;
+}
+
+.container-title {
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    opacity: 85%;
 }
 
 .container-shadow {
-    background-color: #cccccc;
+    background-color: #f5f5f5;
     border: #333333;
     box-shadow: 0.25rem 0.25rem #cccccc;
     border-radius: 25px;
 }
 .container-shadow:hover {
     color: #280025;
-    background-color: #f5f5f5;
-    box-shadow: 0.5rem 0.5rem #333333;
+    background-color: #d7ffda;
+    box-shadow: 0.25rem 0.25rem #333333;
     border-radius: 25px;
     -webkit-filter: none;
     -moz-filter: none;
