@@ -271,7 +271,7 @@ img:hover {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/cgcontactbg.svg);
+    background-image: url(../images/cgcontactbg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
