@@ -120,7 +120,7 @@ nav a:active {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/cgjumbotron.svg);
+    background-image: url(../images/cgcontactbg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ nav a:active {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/HomeAR.Logo.jpg);
+    background-image: url(../images/HomeAR.Logo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ nav a:active {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/TLG.Logo.web.jpg);
+    background-image: url(../images/TLG.Logo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ nav a:active {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/DOI.CaseStudy.web.jpg);
+    background-image: url(../images/DOI.CaseStudy.web.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@ nav a:active {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/DSF.CaseStudy.web.jpg);
+    background-image: url(../images/DSF.CaseStudy.web.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
