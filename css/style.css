@@ -3,6 +3,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #280025;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 section {
@@ -116,12 +121,13 @@ nav a:active {
 /* Jumbotron CSS */
 
 .jumbotron {
-    height: 70vh;
+    height: 50vh;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     background-image: url(../images/cgcontactbg.png);
+    background-color: #cccccc;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -186,6 +192,7 @@ nav a:active {
     border: 1px solid rgba(0, 0, 0, .25);
     border-radius: 0.25rem;
     box-shadow: 0.25rem 0.25rem #cccccc;
+    padding: 0.25rem;;
 }
 
 .cardPadding:hover {
@@ -254,15 +261,11 @@ img:hover {
     margin-top: 15px;
 }
 
-.skillAbout {
-    grid-column: 4 / 6;
-    grid-row: 2 / 3;
-}
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: inset 0 1px 1px #d7ffda, 0 0 8px #d7ffda;
+  }
 
-.skillAbout {
-    grid-column: 4 / 6;
-    grid-row: 3 / 4;
-}
 
 /* Contact CSS */
 

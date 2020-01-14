@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="256px" height="232px" viewBox="0 0 256 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-	<g>
-		<polygon fill="#FDB300" points="127.9998 0.0002 55.8548 7.6282 -0.0002 82.6072 127.9998 231.6622 255.9998 82.6072 200.1458 7.6282"></polygon>
-		<polygon fill="#EB6C00" points="0 82.6076 128 231.6616 51.846 82.6076"></polygon>
-		<polygon fill="#EB6C00" points="204.1533 82.6076 128.0003 231.6616 255.9993 82.6076"></polygon>
-		<polygon fill="#FDAD00" points="51.8463 82.6076 128.0003 231.6616 204.1543 82.6076"></polygon>
-		<polygon fill="#FDD231" points="55.8548 7.6282 51.8458 82.6072 127.9998 0.0002"></polygon>
-		<polygon fill="#FDD231" points="204.1533 82.6076 200.1453 7.6276 128.0003 0.0006"></polygon>
-		<polygon fill="#FDAD00" points="204.1542 82.6076 255.9992 82.6076 200.1452 7.6276"></polygon>
-		<polygon fill="#FDAD00" points="0 82.6076 51.846 82.6076 55.855 7.6276"></polygon>
-		<polygon fill="#FEEEB7" points="127.9998 0.0002 51.8458 82.6072 204.1538 82.6072"></polygon>
-	</g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 110 110" style="enable-background:new 0 0 110 110;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FDB300;}
+	.st1{fill:#EB6C00;}
+	.st2{fill:#FDAD00;}
+	.st3{fill:#FDD231;}
+	.st4{fill:#FEEEB7;}
+</style>
+<g>
+	<polygon class="st0" points="55,8.5 26.8,11.5 5,40.8 55,99 105,40.8 83.2,11.5 	"/>
+	<polygon class="st1" points="5,40.8 55,99 25.3,40.8 	"/>
+	<polygon class="st1" points="84.7,40.8 55,99 105,40.8 	"/>
+	<polygon class="st2" points="25.3,40.8 55,99 84.7,40.8 	"/>
+	<polygon class="st3" points="26.8,11.5 25.3,40.8 55,8.5 	"/>
+	<polygon class="st3" points="84.7,40.8 83.2,11.5 55,8.5 	"/>
+	<polygon class="st2" points="84.7,40.8 105,40.8 83.2,11.5 	"/>
+	<polygon class="st2" points="5,40.8 25.3,40.8 26.8,11.5 	"/>
+	<polygon class="st4" points="55,8.5 25.3,40.8 84.7,40.8 	"/>
+</g>
 </svg>
