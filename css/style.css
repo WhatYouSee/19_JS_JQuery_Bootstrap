@@ -79,6 +79,19 @@ h2 {
     line-height: 1.2;
 }
 
+.progress-spacing {
+    margin: 80px 80px 80px 80px;
+    padding: 20px 20px 20px 20px;
+}
+
+a .progress-spacing {
+    text-align: center;
+}
+
+h1 .progress-spacing {
+    text-align: center;
+}
+
 /* buttons */
 
 .buttonShadow {
@@ -120,8 +133,13 @@ nav a:active {
 
 /* Jumbotron CSS */
 
+background-image {
+    max-height: 500px;
+    max-width: 700px;
+}
+
 .jumbotron {
-    height: 50vh;
+    max-height: 70vh auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -135,7 +153,7 @@ nav a:active {
 }
 
 .jumbotronhomear {
-    height: 70vh;
+    max-height: 70vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -148,7 +166,7 @@ nav a:active {
 }
 
 .jumbotrontlg {
-    height: 70vh;
+    max-height: 70vh none;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -161,7 +179,7 @@ nav a:active {
 }
 
 .jumbotrondoi {
-    height: 70vh;
+    max-height: 70vh auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -174,7 +192,7 @@ nav a:active {
 }
 
 .jumbotrondsf {
-    height: 70vh;
+    max-height: 70vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -349,7 +367,7 @@ blockquote p {
     padding: 25px;
     border-radius: 25px;
     background-color: #f5f5f5;
-    opacity: 85%;
+    opacity: 90%;
 }
 
 .container-shadow {
